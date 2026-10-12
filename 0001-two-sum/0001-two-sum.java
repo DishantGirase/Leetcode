@@ -9,9 +9,9 @@ class Solution {
                     break;
                 }
             }
-            if(arr[1]>0){
-                break;
-            }
+            // if(arr[1]>0){
+            //     break;
+            // }
         }
         return arr;
     }
