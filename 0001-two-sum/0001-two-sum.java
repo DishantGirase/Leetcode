@@ -6,13 +6,11 @@ class Solution {
                 if(nums[i]+nums[j]==target && i!=j){
                     arr[0]=i;
                     arr[1]=j;
-                    break;
+                    return arr;
                 }
             }
-            // if(arr[1]>0){
-            //     break;
-            // }
+            }
+            return null;
         }
-        return arr;
+        
     }
-}
